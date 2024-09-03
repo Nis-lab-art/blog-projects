@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+}
+.main {
+    background-color: #1b212c;
+    display: flex;
+}
+
+.box {
+    background-color: #447bbe;
+    color: #f8f8ff;
+    font-size: 30px;
+    padding: 35px;
+    margin: 10px;
+    width: 20px;
+}
+
+.b2 {
+    flex-basis: 200px;
+}
