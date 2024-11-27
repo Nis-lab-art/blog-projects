@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  color: whitesmoke;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+.container {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid gray;
+  border-radius: 8px;
+  padding: 20px;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 0%,
+    rgba(0, 155, 255, 1) 60%
+  );
+}
+
+.star-rating {
+  font-size: 4rem;
+}
+
+.star {
+  color: whitesmoke;
+  transition: color 0.2s;
+}
+
+.star:hover {
+  color: orange;
+}
+
+.star.active,
+.star.hover-active {
+  color: orange; /* Color when active or hovered */
+}
